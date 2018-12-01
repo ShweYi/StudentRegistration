@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6336B7EFE41DEBFE598F892C /* Pods_Student_Registration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FDDF920EAE775642FF2805 /* Pods_Student_Registration.framework */; };
+		8C7A154521B19C79008D6023 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A154421B19C79008D6023 /* Extensions.swift */; };
+		8C7A154921B1AB65008D6023 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A154821B1AB65008D6023 /* SignUpViewController.swift */; };
 		8CA2558621B1840300DB3305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2558521B1840300DB3305 /* AppDelegate.swift */; };
 		8CA2558821B1840300DB3305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2558721B1840300DB3305 /* ViewController.swift */; };
 		8CA2558B21B1840300DB3305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA2558921B1840300DB3305 /* Main.storyboard */; };
 		8CA2558D21B1840600DB3305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA2558C21B1840600DB3305 /* Assets.xcassets */; };
 		8CA2559021B1840600DB3305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA2558E21B1840600DB3305 /* LaunchScreen.storyboard */; };
+		8CBA012A21B2B8DB00A1425C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA012921B2B8DB00A1425C /* GoogleService-Info.plist */; };
+		8CBEF3EB21B21CE200D81807 /* StudentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3E921B21CE100D81807 /* StudentCollectionViewCell.swift */; };
+		8CBEF3EC21B21CE200D81807 /* StudentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBEF3EA21B21CE200D81807 /* StudentCollectionViewCell.xib */; };
+		8CBEF3EF21B21DBD00D81807 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3EE21B21DBD00D81807 /* CustomButton.swift */; };
+		8CBEF3F121B21DE300D81807 /* ShadowTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3F021B21DE300D81807 /* ShadowTextField.swift */; };
+		8CBEF3F321B21E1B00D81807 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3F221B21E1B00D81807 /* CardView.swift */; };
+		8CBEF3F521B21E8D00D81807 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3F421B21E8D00D81807 /* CustomTextView.swift */; };
+		8CBEF3F721B21EBA00D81807 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3F621B21EBA00D81807 /* BorderTextField.swift */; };
+		8CBEF3FD21B2248800D81807 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3FC21B2248800D81807 /* StudentViewController.swift */; };
+		8CBEF3FF21B2249D00D81807 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF3FE21B2249D00D81807 /* BaseViewController.swift */; };
+		8CBEF40121B226E700D81807 /* CellRegisterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF40021B226E700D81807 /* CellRegisterUtil.swift */; };
+		8CBEF40321B2311500D81807 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF40221B2311500D81807 /* NetworkManager.swift */; };
+		8CBEF40621B231B200D81807 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBEF40521B231B200D81807 /* DataModel.swift */; };
+		8CD3354C21B2D2C800A19803 /* StudentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3354B21B2D2C800A19803 /* StudentVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21275C37E8C3D9E851C8F22B /* Pods-Student Registration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Student Registration.release.xcconfig"; path = "Target Support Files/Pods-Student Registration/Pods-Student Registration.release.xcconfig"; sourceTree = "<group>"; };
+		54C7DBBAF10FDA0454CE9E91 /* Pods-Student Registration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Student Registration.debug.xcconfig"; path = "Target Support Files/Pods-Student Registration/Pods-Student Registration.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7A154421B19C79008D6023 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8C7A154821B1AB65008D6023 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8CA2558221B1840300DB3305 /* Student Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Registration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA2558521B1840300DB3305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CA2558721B1840300DB3305 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,21 @@
 		8CA2558C21B1840600DB3305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CA2558F21B1840600DB3305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CA2559121B1840600DB3305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBA012921B2B8DB00A1425C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CBEF3E921B21CE100D81807 /* StudentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCollectionViewCell.swift; sourceTree = "<group>"; };
+		8CBEF3EA21B21CE200D81807 /* StudentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCollectionViewCell.xib; sourceTree = "<group>"; };
+		8CBEF3EE21B21DBD00D81807 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8CBEF3F021B21DE300D81807 /* ShadowTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowTextField.swift; sourceTree = "<group>"; };
+		8CBEF3F221B21E1B00D81807 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8CBEF3F421B21E8D00D81807 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		8CBEF3F621B21EBA00D81807 /* BorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
+		8CBEF3FC21B2248800D81807 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		8CBEF3FE21B2249D00D81807 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8CBEF40021B226E700D81807 /* CellRegisterUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRegisterUtil.swift; sourceTree = "<group>"; };
+		8CBEF40221B2311500D81807 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8CBEF40521B231B200D81807 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8CD3354B21B2D2C800A19803 /* StudentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVO.swift; sourceTree = "<group>"; };
+		E8FDDF920EAE775642FF2805 /* Pods_Student_Registration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Student_Registration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6336B7EFE41DEBFE598F892C /* Pods_Student_Registration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3689A2E03B14339F1EF643B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54C7DBBAF10FDA0454CE9E91 /* Pods-Student Registration.debug.xcconfig */,
+				21275C37E8C3D9E851C8F22B /* Pods-Student Registration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8CA2557921B1840300DB3305 = {
 			isa = PBXGroup;
 			children = (
 				8CA2558421B1840300DB3305 /* Student Registration */,
 				8CA2558321B1840300DB3305 /* Products */,
+				3689A2E03B14339F1EF643B8 /* Pods */,
+				AEABD46F1B77834C94E53397 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,78 @@
 		8CA2558421B1840300DB3305 /* Student Registration */ = {
 			isa = PBXGroup;
 			children = (
+				8CD3354A21B2D2A100A19803 /* vos */,
+				8CBEF40421B231A500D81807 /* data */,
+				8CBEF3F921B21EE200D81807 /* cells */,
+				8CBEF3F821B21ED100D81807 /* viewcontroller */,
+				8CBEF3ED21B21D8300D81807 /* Components */,
 				8CA2558521B1840300DB3305 /* AppDelegate.swift */,
-				8CA2558721B1840300DB3305 /* ViewController.swift */,
 				8CA2558921B1840300DB3305 /* Main.storyboard */,
 				8CA2558C21B1840600DB3305 /* Assets.xcassets */,
 				8CA2558E21B1840600DB3305 /* LaunchScreen.storyboard */,
 				8CA2559121B1840600DB3305 /* Info.plist */,
+				8CBA012921B2B8DB00A1425C /* GoogleService-Info.plist */,
+				8CBEF40021B226E700D81807 /* CellRegisterUtil.swift */,
+				8CBEF40221B2311500D81807 /* NetworkManager.swift */,
 			);
 			path = "Student Registration";
+			sourceTree = "<group>";
+		};
+		8CBEF3ED21B21D8300D81807 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8CBEF3EE21B21DBD00D81807 /* CustomButton.swift */,
+				8CBEF3F021B21DE300D81807 /* ShadowTextField.swift */,
+				8CBEF3F221B21E1B00D81807 /* CardView.swift */,
+				8CBEF3F621B21EBA00D81807 /* BorderTextField.swift */,
+				8CBEF3F421B21E8D00D81807 /* CustomTextView.swift */,
+				8C7A154421B19C79008D6023 /* Extensions.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8CBEF3F821B21ED100D81807 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				8C7A154821B1AB65008D6023 /* SignUpViewController.swift */,
+				8CA2558721B1840300DB3305 /* ViewController.swift */,
+				8CBEF3FC21B2248800D81807 /* StudentViewController.swift */,
+				8CBEF3FE21B2249D00D81807 /* BaseViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		8CBEF3F921B21EE200D81807 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				8CBEF3E921B21CE100D81807 /* StudentCollectionViewCell.swift */,
+				8CBEF3EA21B21CE200D81807 /* StudentCollectionViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		8CBEF40421B231A500D81807 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8CBEF40521B231B200D81807 /* DataModel.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8CD3354A21B2D2A100A19803 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3354B21B2D2C800A19803 /* StudentVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		AEABD46F1B77834C94E53397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8FDDF920EAE775642FF2805 /* Pods_Student_Registration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CA2559421B1840600DB3305 /* Build configuration list for PBXNativeTarget "Student Registration" */;
 			buildPhases = (
+				C80668B634595BF43B891997 /* [CP] Check Pods Manifest.lock */,
 				8CA2557E21B1840300DB3305 /* Sources */,
 				8CA2557F21B1840300DB3305 /* Frameworks */,
 				8CA2558021B1840300DB3305 /* Resources */,
+				0AF64961ECB2AE3C6108AF7B /* [CP] Embed Pods Frameworks */,
+				CA41B797BB53FA2EC6B5558F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBEF3EC21B21CE200D81807 /* StudentCollectionViewCell.xib in Resources */,
 				8CA2559021B1840600DB3305 /* LaunchScreen.storyboard in Resources */,
+				8CBA012A21B2B8DB00A1425C /* GoogleService-Info.plist in Resources */,
 				8CA2558D21B1840600DB3305 /* Assets.xcassets in Resources */,
 				8CA2558B21B1840300DB3305 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +247,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AF64961ECB2AE3C6108AF7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Student Registration/Pods-Student Registration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Student Registration/Pods-Student Registration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80668B634595BF43B891997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Student Registration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA41B797BB53FA2EC6B5558F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Student Registration/Pods-Student Registration-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Student Registration/Pods-Student Registration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CA2557E21B1840300DB3305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBEF3EB21B21CE200D81807 /* StudentCollectionViewCell.swift in Sources */,
 				8CA2558821B1840300DB3305 /* ViewController.swift in Sources */,
+				8CBEF40121B226E700D81807 /* CellRegisterUtil.swift in Sources */,
+				8CBEF3F521B21E8D00D81807 /* CustomTextView.swift in Sources */,
+				8CBEF3F721B21EBA00D81807 /* BorderTextField.swift in Sources */,
+				8CBEF40621B231B200D81807 /* DataModel.swift in Sources */,
+				8CD3354C21B2D2C800A19803 /* StudentVO.swift in Sources */,
+				8CBEF3EF21B21DBD00D81807 /* CustomButton.swift in Sources */,
+				8CBEF3FF21B2249D00D81807 /* BaseViewController.swift in Sources */,
+				8C7A154521B19C79008D6023 /* Extensions.swift in Sources */,
+				8CBEF3F121B21DE300D81807 /* ShadowTextField.swift in Sources */,
+				8C7A154921B1AB65008D6023 /* SignUpViewController.swift in Sources */,
+				8CBEF40321B2311500D81807 /* NetworkManager.swift in Sources */,
+				8CBEF3F321B21E1B00D81807 /* CardView.swift in Sources */,
 				8CA2558621B1840300DB3305 /* AppDelegate.swift in Sources */,
+				8CBEF3FD21B2248800D81807 /* StudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +502,7 @@
 		};
 		8CA2559521B1840600DB3305 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C7DBBAF10FDA0454CE9E91 /* Pods-Student Registration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +521,7 @@
 		};
 		8CA2559621B1840600DB3305 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21275C37E8C3D9E851C8F22B /* Pods-Student Registration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
