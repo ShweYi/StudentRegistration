@@ -89,13 +89,6 @@ class NetworkManager {
         }
 
     }
-
-//    func addPost(post : PostVO, success : @escaping () -> Void, failure : @escaping () -> Void) {
-//
-//        rootRef.child("kabyar").child(post.id).setValue(PostVO.parseToDictionary(post: post))
-//        success()
-//
-//    }
     
     func imageUpload(data : Data?, success : @escaping (String) -> Void, failure : @escaping () -> Void) {
         
