@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>551549516521-efusj9il9g9t9o1i2gaoeghd9khmg6cd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.551549516521-efusj9il9g9t9o1i2gaoeghd9khmg6cd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDvYvtjvvq3R11t7K-Hgk8D-1nPpOxXkz0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>551549516521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.padc.Student-Registration</string>
+	<key>PROJECT_ID</key>
+	<string>studentregistration-e4027</string>
+	<key>STORAGE_BUCKET</key>
+	<string>studentregistration-e4027.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:551549516521:ios:ff3492fa19c09fab</string>
+	<key>DATABASE_URL</key>
+	<string>https://studentregistration-e4027.firebaseio.com</string>
+</dict>
+</plist>
